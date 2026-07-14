@@ -1,0 +1,29 @@
+:\Users\user\Desktop\New folder\expressBookReviews\final_project> curl http://localhost:5000/
+StatusCode        : 200
+StatusDescription : OK
+Content           : {
+                      "1": {
+                        "author": "Chinua Achebe",
+                        "title": "Things Fall Apart",
+                        "reviews": {}
+                      },
+                      "2": {
+                        "author": "Hans Christian Andersen",
+                        "title": "Fairy tales",
+                        "reviews": {}
+                      },
+                    ...
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    Keep-Alive: timeout=5
+                    Content-Length: 995
+                    Content-Type: text/html; charset=utf-8
+                    Date: Tue, 14 Jul 2026 21:27:44 GMT
+                    ETag: W/"3e3-Jny8gzjgaqiOjhmSva79nBjdp...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [Keep-Alive, timeout=5], [Content-Length, 995], [Content-Type, text/html; charset=utf-8]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 995
